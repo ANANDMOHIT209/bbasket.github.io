@@ -1,0 +1,44 @@
+body{
+    background-image:url("https://hdwallsource.com/img/2014/9/blur-26347-27038-hd-wallpapers.jpg"); background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
+}
+
+span{
+    color: rgb(185, 8, 8);
+}
+
+.password-box{
+    position: relative;
+    left: 133px;
+}
+.date{
+    position: relative;
+    left: 15px;
+}
+.month{
+    position: relative;
+    bottom: 38px;
+    left: 202px;
+}
+
+.year{
+    position: relative;
+    bottom: 76px;
+    left: 404px;
+}
+.dateofbirth{
+height: 39px;
+}
+
+.password-box2{
+    position: relative;
+    left: 15px;
+}
+/* .password-box{
+    position: relative;
+    left: 15px;
+} */
+
+#demo{
+    position: relative;
+    left: 1300px;
+  }

@@ -1,0 +1,306 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #27a56b;
+    /* background-color: aqua; */
+}
+html,body{
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: #157347;
+}
+
+h3,h4{
+    color: #157347;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+/* NAVBAR */
+#navbar{
+    /* background-color: rgb(221 223 226); */
+    background-color: #D3E4CD;
+
+}
+.current{
+    color: #157347;
+}
+.nav-link,.navbar-brand{
+    /* color: #198754; */
+    /* color: #28bf79; */
+   
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link{
+    color: #27a56b;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #157347;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    /* line-height: 2rem; */
+}
+.brand-1{
+    color: rgb(218, 16, 16);
+    /* font-size: 1.4rem; */
+}
+.brand-2{
+    /* font-size: 1.4rem; */
+    position: absolute;
+    left: 106px;
+    top: 65px;
+    line-height: 2rem;
+    padding-top: 10px;
+    /* margin-left: 1px; */
+    color: #157347;
+}
+.nv-links{
+    position: absolute;
+    right: 24rem;
+   
+}
+
+li.nav-item {
+    padding: 0.3rem;
+}
+
+.login{
+    position: relative;
+    left: 55rem;
+}
+
+.searchbox{
+    position: relative;
+    left: 48rem;
+}
+/* Title */
+
+#title{
+    cursor: pointer;
+}
+
+/* Features */
+
+.w-100 {
+    width: 100%!important;
+    height: 22rem;
+}
+
+
+
+
+#features{
+    /* margin: auto; */
+    padding: 30px;
+}
+.features-heading{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    /* font-size: larger; */
+    
+    
+}
+.img-features{
+    height: 6.25rem;
+    width: 6.25rem;
+    float: left;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.features-h3{
+    font-weight: bolder;
+   position: relative; 
+   top: 45px;
+    
+
+}
+.features-p{
+position: relative;
+top: 45px;
+}
+
+/* Offer */
+#offer{
+    text-align: center;
+    padding: 2.5rem;
+    background-color: #BAFFB4;
+
+}
+
+.offer-img{
+    width: 250px;
+    margin: 1rem;
+    
+/* padding: 10px;
+box-shadow: 10px 10px #888888; */ 
+}
+
+/* trending */
+
+#trend{
+    margin: 3.5rem 0 3.5rem 0;
+
+}
+.more{
+    position: relative;
+    left: 67.7rem;
+    /* top: 63.8rem; */
+}
+.cardtrending{
+    margin-left: 20rem;
+}
+
+/* card */
+
+.pro-card{
+margin: 25px;
+border: 1px solid;
+padding: 10px;
+box-shadow: 10px 10px #888888;
+cursor: pointer;
+}
+.card1{
+    margin-left: 10rem;
+}
+
+.veg-nonveg{
+    height: 20px;
+     width: 20px;
+     margin: 15px;
+}
+
+.recom{
+    background-color: rgb(15, 216, 15);
+    color: white;
+    padding: 7px;
+    width: 140px;
+    margin: 7px;
+    font-weight: bold;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.rs{
+    font-weight: bolder;
+    color: #157347;
+}
+
+.pro-heading{
+    font-weight: bolder;
+    line-height: 2rem;
+    /* margin-left: 7px; */
+}
+.card{
+    width: 15.5rem;
+}
+
+.card-title{
+    margin-left: 10px;
+}
+
+.addtocart{
+    margin: 15px;
+    /* padding: 10px; */
+}
+.fas{
+    margin-right: 5px;
+}
+
+/* press */
+#press{ text-align: center;
+    padding: 2.5rem;
+}
+.press-img {
+    width: 8rem;
+    margin: 2.5rem;
+    cursor: pointer;
+}
+
+
+/* Testimonial */
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color:rgb(243, 183, 71) ;
+    /* color: #fff; */
+}
+
+#testimonials{
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #BAFFB4;
+    /* color: #fff; */
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-item-test{
+    padding: 7% 15%;
+}
+
+
+/* CTA */
+
+#cta{
+    text-align: center;
+    background-color: #BAFFB4;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+.cta-text{
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    /* color: white; */
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* footer */
+
+.footer-logo{
+    width: 30px;
+    margin:20px;
+    cursor: pointer;
+
+}
+
+#footer{
+    text-align: center;
+    padding: 2.5rem;
+    margin-top: 7.5%;
+    /* background-color: #ff4c68; */
+    background-color: #BAFFB4;
+    /* color: #fff; */
+}
